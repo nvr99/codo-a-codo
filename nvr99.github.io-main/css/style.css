@@ -1,0 +1,166 @@
+body {
+    background-color: #EBEDEF;
+    font-family: 'Montserrat', sans-serif;
+    color: #2E4053ed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E4053ed;
+    font-family: 'Montserrat', sans-serif;
+    color: #EBEDEF;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+}
+header:hover{
+    opacity: 1;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+nav {
+    background-color: #5D6D7E;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #EBEDEF;
+    text-decoration: none;
+}
+
+main {
+    height: calc(100vh - 2rem); /* altura de la ventana - altura del header y footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Esto deberia ser solo para el de catalogo*/
+
+
+
+h1 {
+    font-weight: 600;
+    font-size: 6em;
+    text-transform: uppercase;
+    color: #2E4053ed;
+    opacity: 0.85;
+    
+}
+h1:hover{
+    opacity: 1;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.catalogo img {
+    max-width: 100%;
+}
+
+section div {
+    background-color: #2E4053ed;
+    color: #EBEDEF;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+section div:hover {
+    opacity: 1;
+}
+
+section div h3 {
+    text-align: center;
+}
+
+section div p {
+    margin: 1rem 1rem;
+}
+
+button {
+    background-color: #2E4053ed;
+    color: #EBEDEF;
+    border: none;
+    padding: 1.2rem;
+    font-size: 1.2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5D6D7E;   
+}
+fieldset {
+    background-color: #2E4053ed;
+    color: #EBEDEF;
+    opacity: 0.8;
+    padding: 0.5rem 0.5rem;
+}
+
+.consultar {
+    color: #2E4053ed;
+    background-color: #EBEDEF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.consultar:hover{
+    color: #EBEDEF;
+    background-color: #2E4053ed;
+}
+
+footer {
+    padding: 0.25rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+}
+footer p {
+    text-align: center;
+}

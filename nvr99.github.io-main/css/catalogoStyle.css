@@ -1,0 +1,53 @@
+.centrado {
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+@media screen and (min-width:52em) {
+    .centrado {
+        margin: 0 auto;
+        padding: 0 .8em;
+    }
+}
+.título1 {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 400;
+    color: rgb(246, 246, 251);
+}
+
+.card-content {
+    padding: 1.4em;
+}
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-size: 90%;
+}
+.card-content p {
+    font-size: 95%;
+}
+figure {
+    margin: 0;
+}
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: #2E4053ed;
+    margin-bottom: 2em;
+    width: 33%;
+    color: white;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
