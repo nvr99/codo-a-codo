@@ -8,19 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Muskegon Bike Rental</title>
 </head>
 <body>
-    
     <header>
         <div class="centrado">
             <section class="menu-section">
                 <nav class="menu-simple-menu">
                     <ul>
-                        <li><a href="#">INICIO</a> </li>
-                        <li><a href="pages/catalogo.html">CATALOGO</a> </li>
-                        <li><a href="pages/nosotros.html">NOSOTROS</a> </li>
-                        <li><a href="pages/contacto.html">CONTACTO</a> </li>
+                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a href="catalogo.html">CATALOGO</a></li>
+                        <li><a href="nosotros.html">NOSOTROS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
                     </ul>
                 </nav>
             </section>
@@ -36,19 +36,31 @@
     <main>
         <article class="nosotros">
             <div class="nosotros-content">
-                <h2>Mountain Bike</h2>
-                <p>En Bike Rental Buenos Aires, somos una empresa dedicada al alquiler de bicicletas en la vibrante ciudad de Buenos Aires. Con años de experiencia, nos enorgullece ofrecer una amplia selección de bicicletas de calidad para que puedas explorar la ciudad de manera cómoda y divertida.</p>
-                <br>
-                <p> Nuestro equipo está compuesto por entusiastas del ciclismo que conocen las mejores rutas y lugares de interés en Buenos Aires. Estamos aquí para brindarte recomendaciones personalizadas y asegurarnos de que disfrutes al máximo tu experiencia en bicicleta por la ciudad.</p>
-                <br>
+                <h2>Quienes somos?</h2>
+                <p>En Muskegon Bike Rental, somos una empresa dedicada al alquiler de bicicletas en la vibrante ciudad de Buenos Aires. Con años de experiencia, nos enorgullece ofrecer una amplia selección de bicicletas de calidad para que puedas explorar la ciudad de manera cómoda y divertida.</p>
+                <p>Nuestro equipo está compuesto por entusiastas del ciclismo que conocen las mejores rutas y lugares de interés en Buenos Aires. Estamos aquí para brindarte recomendaciones personalizadas y asegurarnos de que disfrutes al máximo tu experiencia en bicicleta por la ciudad.</p>
                 <p>Ya sea que desees recorrer los barrios emblemáticos, pasear por los hermosos parques o descubrir la rica cultura de Buenos Aires, estamos aquí para ayudarte a hacerlo de la mejor manera posible. Ven a visitarnos y descubre por qué somos la opción preferida de los amantes de las bicicletas en Buenos Aires.</p>
+                <br>
+                <h2>Donde estamos?</h2>
+                <div id="map"></div>
             </div>
         </article>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSLBxuo2BBTjGwal_bs1Fo5iop415MvH0&callback=initMap" async defer></script>
+        <script src="../js/script.js"></script>
     </main>
     <footer>
         <div class="centrado">
             <p>&copy; 2023 Muskegon Bike Rental</p>
+            <div class="instagram-icon">
+                <a href="https://www.instagram.com/tu_usuario_de_instagram" target="_blank">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
 </html>
+
+
+
